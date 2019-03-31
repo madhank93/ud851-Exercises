@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             String httpResponse = NetworkUtils.getResponseFromHttpUrl(githubSearchUrl);
+            mSearchResultsTextView.setText(httpResponse);
         } catch (IOException e) {
             e.printStackTrace();
         }

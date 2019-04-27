@@ -39,7 +39,7 @@ public class GreenAdapter extends RecyclerView.Adapter<GreenAdapter.NumberViewHo
 
     // (1) Create a layout resource in res/layout/ called number_list_item.xml
 
-    // Do steps 2 - 11 within number_list_item.xml
+    // Do steps 2 - 11onCreateViewHolder within number_list_item.xml
     // (2) Make the root layout a FrameLayout
     // (3) Make the width match_parent and the height wrap_content
     // (4) Set the padding to 16dp
